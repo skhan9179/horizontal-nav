@@ -1,7 +1,18 @@
 html {
   box-sizing: border-box;
+  background-color: #dbd6cf;
+  color: #fff;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+header {
+  background-color: #79756f;
+  border-color: #595652;
+}
+
+li {
+  background-color: #713837;
 }
