@@ -6,11 +6,15 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 header {
   background-color: #79756f;
   border-color: #595652;
+
+  text-align: center;
 }
 
 li {
