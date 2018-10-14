@@ -13,10 +13,12 @@ html {
 }
 
 header {
+  padding: .75em 0;
+  border-top: medium solid #595652;
+  border-bottom: medium solid #595652;
   text-align: center;
 
   background-color: #79756f;
-  border-color: #595652;
 }
 
 ul {
@@ -26,6 +28,8 @@ ul {
 }
 
 li {
+  padding: .6em;
+
   display: inline-block;
 
   background-color: #713837;
