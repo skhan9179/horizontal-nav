@@ -4,46 +4,63 @@ html {
   background-color: #dbd6cf;
   color: #fff;
 
-  font-family: "Arial";
-  line-height: 1.5;
+  font: normal 100%/1.5 Arial;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
 
+body {
   margin: 0;
-  padding: 0;
 }
 
 header {
-  padding: .75em 0;
+  padding: .6em 0;
   border-top: medium solid #595652;
   border-bottom: medium solid #595652;
+
   text-align: center;
 
   background-color: #79756f;
 }
 
 h1 {
-  font-family: "Bevan";
+  margin: 0;
+
+  font-family: Bevan, cursive;
+  text-align: center;
+}
+
+nav {
+  margin: 0 .3em;
+  padding: 0 .6em;
 }
 
 ul {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+  text-align: center;
 }
 
 li {
-  padding: .6em;
-  margin-top: .3em;
   display: inline-block;
-  border-radius: .3em;
-
-  background-color: #713837;
 }
 
 a, a:visited {
-  text-decoration: none;
+  margin-bottom: .3em;
+  padding: .5em .6em;
+  border-radius: .3em;
+  display: inline-block;
+
+  background-color: #713837;
   color: #fff;
+
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #f33;
 }
