@@ -3,6 +3,9 @@ html {
 
   background-color: #dbd6cf;
   color: #fff;
+
+  font-family: "Arial";
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -21,6 +24,10 @@ header {
   background-color: #79756f;
 }
 
+h1 {
+  font-family: "Bevan";
+}
+
 ul {
   width: 100%;
   margin-left: auto;
@@ -29,8 +36,12 @@ ul {
 
 li {
   padding: .6em;
-
   display: inline-block;
 
   background-color: #713837;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #fff;
 }
